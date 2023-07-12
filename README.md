@@ -11,6 +11,3 @@ This project is used to make your very own README! Answer each prompt to input t
 
 
 # Link to Live Page
-
-# License
-MIT
