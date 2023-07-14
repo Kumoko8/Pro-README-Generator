@@ -43,7 +43,7 @@ const questions = [
         type: "list",
         name: "license",
         message:"What is your license?",
-        choices:["Apache License 2.0", "GNU General Public License v3.0", "MIT", "BSD 2-Clause", "BSD 3-Clause", "Boost Software 1.0", "Creative Commons", "Eclipse Public License 2.0","GNU Affero", "Mozilla Public License 2.0"]
+        choices:["Apache-2.0", "GPL-3.0", "GPL-2.0", "MIT", "BSD-3-Clause ", "BSD-2-Clause", "CC-BY-4.0", "CCO-1.0","CC-BY-SA-4.0", "MPL-2.0"]
     },
     {
         type: "input",
@@ -58,18 +58,27 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-  fs.writeFile("README.md", data, function (err) {
-    if (err) throw err;
-    console.log("README created!");
-  })
-
-
+function writeFile(filePath, content){
+    fs.writeFile(filePath, content, (err) => {
+        if (err) {
+            console.error("Error writing file:", err);
+        } else {
+            console.log("README created!");
+        }
+       
+     })
+   
+  }
+    
 
 // TODO: Create a function to initialize app
 function init() {}
 inquirer.prompt(questions)
 
+
+
 .then
 // Function call to initialize app
 init();
 
+module.exports = writeFile;
