@@ -1,37 +1,67 @@
-# T
+# Taylor's Proj
 
  # Description
 
- <p> D <p> # Table of Contents
+ <p> Everything <p>
 
- Installation
- Usage
- Configuration
- Contributing
- Tests
- License
- Authors
+
+   # Table of Contents
+
+ 
+   Installation
+
+ 
+   Usage
+
+ 
+   Configuration
+
+ 
+   Contributing
+
+ 
+   Tests
+
+ 
+   License
+
+ 
+   Authors
+
+
   # Installation
 
- <p> I <p>
+ <p> to install <p>
 
- # Usage
 
- <p> U
+   # Usage
 
- # Configuration
+ <p> everyday<p>
 
- undefined
 
- # Contributing
+    # Contributing
 
- C
+ please help
 
 
   # Tests
 
- T
+ none
 
- # License
 
-  https://img.shields.io/badge/license-0-green.svg  Apache License 2.0: permissive open-source license that allows users to use, modify, and distribute the code under certain conditions. It includes patent grant provisions and offers more extensive liability and warranty disclaimers compared to the MIT License.
+   # License
+
+  
+   https://img.shields.io/badge/license-0-green.svg
+
+ 
+   
+
+ 
+   Apache License 2.0: permissive open-source license that allows users to use, modify, and distribute the code under certain conditions. It includes patent grant provisions and offers more extensive liability and warranty disclaimers compared to the MIT License. 
+   # Author 
+   
+
+kumoko
+
+ tauen8

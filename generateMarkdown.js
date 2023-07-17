@@ -14,8 +14,8 @@ const licenseLinkArray = [ "https://www.apache.org/licenses/LICENSE-2.0",
 
 function renderLicenseBadge(license) {
 // for (let i = 0; i < licenseBadgeArray.length; i++) {
-  if (license ==licenseBadgeArray[i]) {
-    const licenseEndpt = `https://img.shields.io/badge/license-` + [i] + `-green.svg`;
+  if (license ==licenseBadgeArray[0]) {
+    const licenseEndpt = `https://img.shields.io/badge/license-` + [0] + `-green.svg`;
     return licenseEndpt;
   } else {
     return ""
@@ -62,8 +62,6 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const readmeContent = `# `
-  // console.log(data);
   const licenseBadge = renderLicenseBadge(data.license)
   const licenseLink = renderLicenseLink(data.license)
   const licenseSection = renderLicenseSection(data.license)
@@ -77,14 +75,16 @@ function generateMarkdown(data) {
    License\n\n 
    Authors\n\n
   # Installation\n\n <p> ${data.installation} <p>\n\n
-   # Usage\n\n <p> ${data.usage}\n\n
-    # Contributing\n\n ${data.contributions}\n\n
+  # Usage\n\n <p> ${data.usage}<p>\n\n
+  # Contributing\n\n ${data.contributions}\n\n
   # Tests\n\n ${data.tests}\n\n
-   # License\n\n  
+  # License\n\n  
    ${licenseBadge}\n\n 
    ${licenseLink}\n\n 
    ${licenseSection} 
-   # Author ${data.username}\n\n ${data.email}
+  # Author 
+   \n\nGitHub:${data.username}
+   \n\n Email:${data.email}
 `;
 
 }
