@@ -8,6 +8,8 @@ const path = require("path");
 //generateMarkdown
 const generateMarkdown = require("./generateMarkdown.js")
 // TODO: Create an array of questions for user input
+const filePath = "./Assets/README.md"
+
 const questions = [
     {
         type: "input",
@@ -58,8 +60,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeFile(filePath, content){
-    fs.writeFile(filePath, content, (err) => {
+function writeFile(data){
+    fs.writeFile("./Assets/README.md", generateMarkdown(data), (err) => {
         if (err) {
             console.error("Error writing file:", err);
         } else {
@@ -72,12 +74,17 @@ function writeFile(filePath, content){
     
 
 // TODO: Create a function to initialize app
-function init() {}
-inquirer.prompt(questions)
+function init() {
+    inquirer.prompt(questions).then((answer)=> {
+        console.log(answer)
+        writeFile(answer)
+    })
+}
 
 
 
-.then
+
+
 // Function call to initialize app
 init();
 
