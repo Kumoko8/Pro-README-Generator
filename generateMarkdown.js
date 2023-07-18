@@ -125,23 +125,23 @@ function generateMarkdown(data) {
   return `# ${data.title}\n\n 
   # Description\n\n 
      ${data.description}\n\n
-   # Table of Contents\n\n 
+   ## Table of Contents\n\n 
    [Installation](#installation) \n\n 
-   [Usage]\n\n 
-   [Configuration] \n\n 
-   Contributing\n\n 
-   Tests\n\n 
+   [Usage](#usage)\n\n 
+   [Configuration](#configuration) \n\n 
+   [Contributing](#contributing)\n\n 
+   [Tests](#tests)\n\n 
    [License](#license) \n\n 
-   Authors\n\n
-  # Installation <a name="installation"></a> \n\n <p> ${data.installation} </p>\n\n
-  # Usage\n\n <p> ${data.usage}</p>\n\n
-  # Contributing\n\n ${data.contributions}\n\n
-  # Tests\n\n ${data.tests}\n\n
-  # License <a name="license"></a>\n\n  
+   [Questions](#questions)\n\n
+  ## Installation <a name="installation"></a> \n\n <p> ${data.installation} </p>\n\n
+  ## Usage <a name="usage"></a>\n\n <p> ${data.usage}</p>\n\n
+  ## Contributing <a name="contributing"></a>\n\n ${data.contributions}\n\n
+  ## Tests <a name="tests"></a>\n\n ${data.tests}\n\n
+  ## License <a name="license"></a>\n\n  
    ${licenseBadge}\n\n 
    ${licenseLink}\n\n 
    ${licenseSection} 
-  # Questions
+  ## Questions <a name="questions"></a>
    \n\nGitHub:${data.username}
    \n\n Email:${data.email}
 `;
