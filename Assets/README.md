@@ -1,70 +1,70 @@
-# l
+# k
 
  
   # Description
 
  
-     l
+     k
 
 
-   # Table of Contents
+   ## Table of Contents
 
  
    [Installation](#installation) 
 
  
-   [Usage]
+   [Usage](#usage)
 
  
-   [Configuration] 
+   [Configuration](#configuration) 
 
  
-   Contributing
+   [Contributing](#contributing)
 
  
-   Tests
+   [Tests](#tests)
 
  
    [License](#license) 
 
  
-   Authors
+   [Questions](#questions)
 
 
-  # Installation <a name="installation"></a> 
+  ## Installation <a name="installation"></a> 
 
- <p> l </p>
-
-
-  # Usage
-
- <p> l</p>
+ <p> k </p>
 
 
-  # Contributing
+  ## Usage <a name="usage"></a>
 
- l
-
-
-  # Tests
-
- l
+ <p> k</p>
 
 
-  # License <a name="license"></a>
+  ## Contributing <a name="contributing"></a>
+
+ k
+
+
+  ## Tests <a name="tests"></a>
+
+ k
+
+
+  ## License <a name="license"></a>
 
   
-   https://img.shields.io/badge/license-0-green.svg
+   https://img.shields.io/badge/license-9-green.svg
 
  
-   https://www.apache.org/licenses/LICENSE-2.0
+   https://www.mozilla.org/en-US/MPL/2.0/
 
  
-   Apache License 2.0: permissive open-source license that allows users to use, modify, and distribute the code under certain conditions. It includes patent grant provisions and offers more extensive liability and warranty disclaimers compared to the MIT License. 
-  # Questions
+   Mozilla Public License 2.0: A copyleft license that allows users to use, modify, and distribute the code under certain conditions. It requires any changes or modifications to be shared under the same license terms, ensuring the openness of the codebase. 
+  ## Questions <a name="questions"></a>
    
 
-GitHub:l
+GitHub:k
    
 
- Email:l
+ Email:k
