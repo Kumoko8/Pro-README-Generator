@@ -1,8 +1,10 @@
-# Taylor's Proj
+# t
 
- # Description
+ 
+  # Description
 
- <p> Everything <p>
+ 
+    <p> t <p>
 
 
    # Table of Contents
@@ -31,37 +33,38 @@
 
   # Installation
 
- <p> to install <p>
+ <p> t <p>
 
 
-   # Usage
+  # Usage
 
- <p> everyday<p>
+ <p> t<p>
 
 
-    # Contributing
+  # Contributing
 
- please help
+ t
 
 
   # Tests
 
- none
+ t
 
 
-   # License
+  # License
 
   
-   https://img.shields.io/badge/license-0-green.svg
+   https://img.shields.io/badge/license-9-green.svg
 
  
-   
+   https://www.mozilla.org/en-US/MPL/2.0/
 
  
-   Apache License 2.0: permissive open-source license that allows users to use, modify, and distribute the code under certain conditions. It includes patent grant provisions and offers more extensive liability and warranty disclaimers compared to the MIT License. 
-   # Author 
+   Mozilla Public License 2.0: A copyleft license that allows users to use, modify, and distribute the code under certain conditions. It requires any changes or modifications to be shared under the same license terms, ensuring the openness of the codebase. 
+  # Questions
    
 
-kumoko
+GitHub:k
+   
 
- tauen8
+ Email:k
