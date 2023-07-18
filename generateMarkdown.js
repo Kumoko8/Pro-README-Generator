@@ -123,12 +123,11 @@ function generateMarkdown(data) {
   const licenseLink = renderLicenseLink(data.license)
   const licenseSection = renderLicenseSection(data.license)
   return `# ${data.title}\n\n 
-  # Description\n\n 
+  ## Description\n\n 
      ${data.description}\n\n
    ## Table of Contents\n\n 
    [Installation](#installation) \n\n 
    [Usage](#usage)\n\n 
-   [Configuration](#configuration) \n\n 
    [Contributing](#contributing)\n\n 
    [Tests](#tests)\n\n 
    [License](#license) \n\n 
