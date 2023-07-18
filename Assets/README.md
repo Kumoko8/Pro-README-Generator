@@ -1,22 +1,22 @@
-# t
+# l
 
  
   # Description
 
  
-    <p> t <p>
+     l
 
 
    # Table of Contents
 
  
-   Installation
+   [Installation](#installation) 
 
  
-   Usage
+   [Usage]
 
  
-   Configuration
+   [Configuration] 
 
  
    Contributing
@@ -25,46 +25,46 @@
    Tests
 
  
-   License
+   [License](#license) 
 
  
    Authors
 
 
-  # Installation
+  # Installation <a name="installation"></a> 
 
- <p> t <p>
+ <p> l </p>
 
 
   # Usage
 
- <p> t<p>
+ <p> l</p>
 
 
   # Contributing
 
- t
+ l
 
 
   # Tests
 
- t
+ l
 
 
-  # License
+  # License <a name="license"></a>
 
   
-   https://img.shields.io/badge/license-9-green.svg
+   https://img.shields.io/badge/license-0-green.svg
 
  
-   https://www.mozilla.org/en-US/MPL/2.0/
+   https://www.apache.org/licenses/LICENSE-2.0
 
  
-   Mozilla Public License 2.0: A copyleft license that allows users to use, modify, and distribute the code under certain conditions. It requires any changes or modifications to be shared under the same license terms, ensuring the openness of the codebase. 
+   Apache License 2.0: permissive open-source license that allows users to use, modify, and distribute the code under certain conditions. It includes patent grant provisions and offers more extensive liability and warranty disclaimers compared to the MIT License. 
   # Questions
    
 
-GitHub:k
+GitHub:l
    
 
- Email:k
+ Email:l

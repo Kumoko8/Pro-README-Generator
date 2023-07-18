@@ -126,18 +126,18 @@ function generateMarkdown(data) {
   # Description\n\n 
      ${data.description}\n\n
    # Table of Contents\n\n 
-   Installation\n\n 
-   Usage\n\n 
-   Configuration\n\n 
+   [Installation](#installation) \n\n 
+   [Usage]\n\n 
+   [Configuration] \n\n 
    Contributing\n\n 
    Tests\n\n 
-   License\n\n 
+   [License](#license) \n\n 
    Authors\n\n
-  # Installation\n\n <p> ${data.installation} <p>\n\n
-  # Usage\n\n <p> ${data.usage}<p>\n\n
+  # Installation <a name="installation"></a> \n\n <p> ${data.installation} </p>\n\n
+  # Usage\n\n <p> ${data.usage}</p>\n\n
   # Contributing\n\n ${data.contributions}\n\n
   # Tests\n\n ${data.tests}\n\n
-  # License\n\n  
+  # License <a name="license"></a>\n\n  
    ${licenseBadge}\n\n 
    ${licenseLink}\n\n 
    ${licenseSection} 
