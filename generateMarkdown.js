@@ -141,7 +141,7 @@ function generateMarkdown(data) {
    ${licenseLink}\n\n 
    ${licenseSection} 
   ## Questions <a name="questions"></a>
-   \n\nGitHub:${data.username}
+   \n\nGitHub:http://github.com/${data.username}
    \n\n Email:${data.email}
 `;
 

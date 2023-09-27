@@ -1,10 +1,10 @@
-# OOP-Logo Maker
+# Just Another Text Editor
 
  
   ## Description
 
  
-     This project's purpose is to showcase our knowledge of OOP (Object Oriented Programming) which is essentially a programming approach that treats everything as an object so that they can make code more modular and easier to manipulate and modify. We learned about inheritance and polymorphism and creating class and function objects.
+     This project focused on PWAs or "progressive web applications" which allows for faster performance by installing packages on the users computer. This allows the application to be used even offline and reduces the amount of server calls needed. We also learned about webpack configuration and service worker registration which both facilitate the process of storing and retrieving an app's files more efficiently.
 
 
    ## Table of Contents
@@ -30,22 +30,22 @@
 
   ## Installation <a name="installation"></a> 
 
- <p> In order to install this project you need a code editing program such as VS code, and access to the command in which you will enter the responses to prompts. </p>
+ <p>  Click the install button in the top left corner to install this application on your device and use it offline! </p>
 
 
   ## Usage <a name="usage"></a>
 
- <p> Once you have the file downloaded and open in your text editor's command line, type npm start to begin answering the prompts in order to create a custom SVG logo with your choice of color and shape! The application will then generate your logo in a separate SVG file along with your initials!</p>
+ <p> This is a simple text editor that supports JavaScript ES5 and ES6+! Type to make notes, code, comment, and more! </p>
 
 
   ## Contributing <a name="contributing"></a>
 
- 
+ Please contact me if you would like to contribute to this project.
 
 
   ## Tests <a name="tests"></a>
 
- 
+ n/a
 
 
   ## License <a name="license"></a>
@@ -61,7 +61,7 @@
   ## Questions <a name="questions"></a>
    
 
-GitHub:github.com/kumoko8
+GitHub:kumoko8
    
 
  Email:tauen8@gmail.com
